@@ -1,0 +1,193 @@
+/* general styling */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+:root {
+  --background: #2E2E2E;
+  --border-color: #f1f1f1;
+
+}
+
+/* hero-section style begins */
+
+
+.hero-section {
+  background-color: var(--background);
+}
+
+#logo-id {
+  width: 5rem;
+  padding: 0.5rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation ul li {
+  padding: 1rem;
+}
+
+.nav-items li a {
+  text-decoration: none;
+}
+
+.btn-contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#name-of-owner {}
+
+#signage-of-owner {
+  width: 10%;
+}
+
+.btn-contact {
+  padding: 2rem;
+  height: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+}
+
+.show-case {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  padding-bottom: 15rem;
+}
+
+.title {
+  display: grid;
+  padding: 3rem;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #c4c4c4c2;
+  background: rgba(196, 196, 196, 0.07);
+  backdrop-filter: blur(28px);
+  width: 71rem;
+  height: 25rem;
+  position: relative;
+}
+
+.profile-pic {
+  position: absolute;
+  z-index: 1000;
+  width: 20%;
+  transform: translateY(25%) translateX(8rem)
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+/* hero-section style ends */
+
+
+/* About me starts */
+
+.top {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+}
+
+.top img {
+  max-width: 50%;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-skills {
+  color: black;
+}
+
+#my-skills-figma {
+  color: green
+}
+
+#my-skills-html5 {
+  color: red;
+}
+
+#my-skills-css3 {
+  color: blue;
+}
+
+#my-skills-js {
+  color: yellow;
+}
+
+#my-skills-react {
+  color: rgb(112, 174, 194);
+}
+
+#my-skills-node {
+  color: green;
+}
+
+.my-skills {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.my-skills-continer {
+  background-color: #594545;
+  padding: 5rem;
+  border: 1px solid #633939c2;
+  border-radius: 3rem;
+  margin: 0.5rem;
+}
+
+.bottom h3 {
+  padding: 1rem;
+}
+
+/* About me ends */
