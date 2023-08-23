@@ -191,3 +191,70 @@ img {
 }
 
 /* About me ends */
+
+/* My work section starts here */
+.my-work{
+  background-color: #2E2E2E;
+}
+
+.my-work-container{
+  display: flex;
+padding: 4rem;
+flex-direction: column;
+gap: 97px;
+
+.My-works-title{
+  color: var(--neutral-1, #E3E4E6);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+#work-inline-style{
+
+  color: var(--neutral-2, rgba(227, 228, 230, 0.55));
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-weight: 300;
+
+}
+
+.my-woks-image{
+  width: 40%;
+}
+
+.my-work-subcont{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+    gap: 100px;
+
+}
+
+
+.my-woks-details{
+  color: var(--neutral-1, #E3E4E6);
+  width: 40%;
+}
+
+.my-work-des{
+  color: var(--neutral-1, #E3E4E6);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Work Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 10%;
+line-height: 150%;
+}
+
+.my-work-btn{
+  background: none;
+  border-radius: 1rem;
+  color: #E3E4E6;
+  border: 1px solid var(--neutral-2, rgba(227, 228, 230, 0.55));
+  cursor: pointer;
+  on-cli
+}
+/* my work section ends here */
