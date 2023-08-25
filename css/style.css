@@ -67,7 +67,6 @@ img {
   align-items: center;
 }
 
-#name-of-owner {}
 
 #signage-of-owner {
   width: 10%;
@@ -102,7 +101,7 @@ img {
   position: relative;
 }
 
-#title-main-text{
+#title-main-text {
   color: #F1F1F1;
   font-family: Playfair Display;
   font-size: 64px;
@@ -113,13 +112,13 @@ img {
   margin: 0;
 }
 
-.title-sub-text{
+.title-sub-text {
   color: #9CA3AF;
-font-family: DM Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 5px; /* 138.889% */
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2rem;
+  
 }
 
 .profile-pic {
@@ -213,68 +212,100 @@ line-height: 5px; /* 138.889% */
 /* About me ends */
 
 /* My work section starts here */
-.my-work{
+.my-work {
   background-color: #010208;
 }
 
-.my-work-container{
+.my-work-container {
   display: flex;
-padding: 4rem;
-flex-direction: column;
-gap: 97px;
+  padding: 4rem;
+  flex-direction: column;
+  gap: 97px;
 
-.My-works-title{
-  color: var(--neutral-1, #E3E4E6);
-  font-family: Work Sans;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 150%;
-}
+  .My-works-title {
+    color: var(--neutral-1, #E3E4E6);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+  }
 
-#work-inline-style{
+  #work-inline-style {
 
-  color: var(--neutral-2, rgba(227, 228, 230, 0.55));
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-weight: 300;
+    color: var(--neutral-2, rgba(227, 228, 230, 0.55));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-weight: 300;
 
-}
+  }
 
-.my-woks-image{
-  width: 40%;
-}
+  .my-woks-image {
+    width: 40%;
+  }
 
-.my-work-subcont{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
+  .my-work-subcont {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
     gap: 100px;
 
-}
+  }
 
 
-.my-woks-details{
-  color: var(--neutral-1, #E3E4E6);
-  width: 40%;
-}
+  .my-woks-details {
+    color: var(--neutral-1, #E3E4E6);
+    width: 40%;
+  }
 
-.my-work-des{
-  color: var(--neutral-1, #E3E4E6);
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Work Sans;
-font-size: 32px;
-font-style: normal;
-font-weight: 10%;
-line-height: 150%;
-}
+  .my-work-des {
+    color: var(--neutral-1, #E3E4E6);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 10%;
+    line-height: 150%;
+  }
 
-.my-work-btn{
-  background: none;
-  border-radius: 1rem;
-  color: #E3E4E6;
-  border: 1px solid var(--neutral-2, rgba(227, 228, 230, 0.55));
-  cursor: pointer;
-  on-cli
-}
-/* my work section ends here */
+  .my-work-btn {
+    background: none;
+    border-radius: 1rem;
+    color: #E3E4E6;
+    border: 1px solid var(--neutral-2, rgba(227, 228, 230, 0.55));
+    cursor: pointer;
+  }
+
+  /* my work section ends here */
+
+  /* comment section starts here */
+
+  #comment-container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 5rem;
+  }
+
+  #comment-header {
+    color: var(--black-color-page-header, #131313);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'DM Sans', sans-serif;    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4rem;
+  }
+
+  #comment-description{
+    color: var(--black-color-grey-700, #393C3F);
+font-variant-numeric: lining-nums proportional-nums;
+font-family: 'DM Sans', sans-serif;
+font-size: 5rem;
+font-style: italic;
+font-weight: 500;
+line-height: 1.875rem
+; 
+  }
+
+  /* comment section ends here */
