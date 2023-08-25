@@ -118,7 +118,7 @@ img {
   font-size: 18px;
   font-weight: 400;
   line-height: 2rem;
-  
+
 }
 
 .profile-pic {
@@ -221,91 +221,214 @@ img {
   padding: 4rem;
   flex-direction: column;
   gap: 97px;
+}
 
-  .My-works-title {
-    color: var(--neutral-1, #E3E4E6);
-    font-family: Work Sans;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 150%;
-  }
+.My-works-title {
+  color: var(--neutral-1, #E3E4E6);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+}
 
-  #work-inline-style {
+#work-inline-style {
 
-    color: var(--neutral-2, rgba(227, 228, 230, 0.55));
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-weight: 300;
+  color: var(--neutral-2, rgba(227, 228, 230, 0.55));
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-weight: 300;
 
-  }
+}
 
-  .my-woks-image {
-    width: 40%;
-  }
+.my-woks-image {
+  width: 40%;
+}
 
-  .my-work-subcont {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+.my-work-subcont {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 
-  }
+}
 
 
-  .my-woks-details {
-    color: var(--neutral-1, #E3E4E6);
-    width: 40%;
-  }
+.my-woks-details {
+  color: var(--neutral-1, #E3E4E6);
+  width: 40%;
+}
 
-  .my-work-des {
-    color: var(--neutral-1, #E3E4E6);
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Work Sans;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 10%;
-    line-height: 150%;
-  }
+.my-work-des {
+  color: var(--neutral-1, #E3E4E6);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Work Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 10%;
+  line-height: 150%;
+}
 
-  .my-work-btn {
-    background: none;
-    border-radius: 1rem;
-    color: #E3E4E6;
-    border: 1px solid var(--neutral-2, rgba(227, 228, 230, 0.55));
-    cursor: pointer;
-  }
+.my-work-btn {
+  background: none;
+  border-radius: 1rem;
+  color: #E3E4E6;
+  border: 1px solid var(--neutral-2, rgba(227, 228, 230, 0.55));
+  cursor: pointer;
+}
 
-  /* my work section ends here */
+/* my work section ends here */
 
-  /* comment section starts here */
+/* comment section starts here */
 
-  #comment-container{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-    padding: 5rem;
-  }
+.peoples-comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  #comment-header {
-    color: var(--black-color-page-header, #131313);
-    font-variant-numeric: lining-nums proportional-nums;
-    font-family: 'DM Sans', sans-serif;    font-size: 3rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 4rem;
-  }
+.comment-details {
+  border-radius: 1rem 0rem 0rem 1rem;
+  background: #F2F3F4;
+  backdrop-filter: blur(0.04rem);
+  padding: 2.5rem;
+  margin-bottom: 4rem;
+}
 
-  #comment-description{
-    color: var(--black-color-grey-700, #393C3F);
-font-variant-numeric: lining-nums proportional-nums;
-font-family: 'DM Sans', sans-serif;
-font-size: 5rem;
-font-style: italic;
-font-weight: 500;
-line-height: 1.875rem
-; 
-  }
+.owners-name {
+  color: #121212;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: DM Sans;
+  margin-bottom: 0.6rem;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.rem;
+  /* 128.571% */
+}
 
-  /* comment section ends here */
+.comment-buttons {
+  margin-bottom: 4rem;
+}
+
+.owners-work {
+  color: #121212;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 0;
+  /* 162.5% */
+}
+
+.owners-company {
+  color: #121212;
+  margin-top: -1rem;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+.comment-descripton-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#comment-container {
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  padding: 5rem;
+}
+
+#comment-header {
+  color: var(--black-color-page-header, #131313);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4rem;
+}
+
+#comment-description {
+  color: var(--black-color-grey-700, #393C3F);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.875rem;
+}
+
+.circularize {
+  border: solid 1px #BABEC1;
+  padding: 1rem;
+  border-radius: 9rem;
+  margin-right: 1rem;
+}
+
+.get-in-touch {
+  color: rgba(9, 9, 9, 0.55);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  /* Heading 1/Light */
+  font-family: Work Sans;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  /* 84px */
+  letter-spacing: -1.12px;
+}
+
+.get-in-touch-detail {
+  color: #090909;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  /* Body 1/Light */
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  /* 27px */
+}
+
+.comment-footer {
+  padding: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.comment-footer-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  color: #0909098C;
+  margin: 2rem;
+}
+
+.comment-footer-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* 
+    comment section ends here 
+  */
