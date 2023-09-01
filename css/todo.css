@@ -1,0 +1,64 @@
+/* general styling */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0b1416;
+}
+
+/* wrapper begins */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b1416;
+  color: white;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: xx-large;
+  padding: 1rem;
+
+}
+
+#add-todo {
+  padding: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+
+#add-todo-trigger {
+  background-color: white;
+  padding: 0.8rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.increase-by-5 {
+  padding: 0.8rem;
+}
+
+.no-background {
+  background-color: #0b1416;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: larger;
+}
+
+.todo-items {
+  padding: 1rem;
+}
+
+/* wrapper ends */
